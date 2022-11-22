@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+$fontColor : #fff;
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #34353b;
+
+    html {
+        height: 100%;
+    }
+
+}
+
+li,
+a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px 10%;
+    background-color: #24252A !important;
+
+    .logo {
+        background-color: #24252A !important;
+    }
+
+    ul,
+    li,
+    a {
+        background-color: #24252A !important;
+
+    }
+}
+
+.logo {
+    cursor: pointer;
+    height: 5vh;
+
+}
+
+.navlinks {
+    list-style: none;
+
+    li {
+        display: inline-block;
+        padding: 0px 20px;
+
+        a {
+            transition: all 0.4s ease 0s;
+
+        }
+
+        a:hover {
+            color: rgba(0, 136, 169, 1);
+        }
+    }
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+    color: $fontColor;
+    font-size: 20px;
+
+}
+
+h1{
+    color: $fontColor;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #24252A;
+    color: $fontColor;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    p{
+        font-size: small;
+        margin-left: 5px;
+        text-align: center;
+    }
+
+    .logo{
+        margin-top: 5px;
+        margin-left: 5px;
+        width: 100px;
+        height: 30px;
+        position: relative;
+        left: 47%
+    }
+}
+
+.footlinks{
+    list-style: none;
+
+    li {
+       text-align: center;
+        padding: 0px 20px;
+
+        a {
+            transition: all 0.4s ease 0s;
+            font-size: small;
+            
+        }
+
+        a:hover {
+            color: rgba(0, 136, 169, 1);
+        }
+    }
+}
