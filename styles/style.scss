@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-$boxes : #767677; //The boxes background color
+$boxes : rgba(0, 136, 169, 0.9); //The boxes background color
 $fontColor : #fff; //Font color
 $font2 : 2.5rem; //h2 font size
 
@@ -33,7 +33,7 @@ img {
     transform: translate(-50%, -50%);
     z-index: 1;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: $boxes;
     border-radius: 5px;
     padding-bottom: 20px;
     padding-left: 10px;
@@ -48,7 +48,7 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: $boxes;
     border-radius: 5px;
     padding-bottom: 20px;
     padding-left: 10px;
@@ -63,7 +63,7 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: $boxes;
     border-radius: 5px;
     padding-bottom: 20px;
     padding-left: 10px;
@@ -78,7 +78,7 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: $boxes;
     border-radius: 5px;
     padding-bottom: 20px;
     padding-left: 10px;
@@ -210,10 +210,11 @@ p {
     padding-bottom: 10px;
     padding-top: 10px;
 
-    p{
+    .copyright{
         font-size: small;
         margin-left: 5px;
         text-align: center;
+        margin-top: 0px;
     }
 
     .logo{

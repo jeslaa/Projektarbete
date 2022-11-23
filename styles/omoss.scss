@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 $fontColor : #fff;
+$pBread : 1rem;
+$font2 : 2.5rem; //h2 font size
 
 * {
     margin: 0px;
@@ -82,11 +85,91 @@ button {
 
 }
 
-h1{
-    color: $fontColor;
-    font-size: 3rem;
-    text-align: center;
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
 }
+
+p{
+    color: $fontColor;
+    font-size: $pBread;
+    line-height: 1.2;
+}
+
+section{
+    max-width: 1500px;
+    margin: auto;
+
+    h1{
+        color: $fontColor;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: $font2;
+        color: $fontColor;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .omoss{
+        margin-top: 10px;
+        font-weight: 100px;
+    }
+
+    .företagsmotto{
+        text-align: center;
+        font-size: 2rem;
+        background-color: rgba(0, 136, 169, 1);
+        border-radius: 5px;
+        width: 400px;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        font-weight: bold;
+        
+    }
+
+    .container{
+        display: flex;
+        margin-top: 20px;
+        justify-content: space-around;
+        flex-flow: row wrap;
+        
+    }
+
+    .portrait{
+        width: 320px;
+        border: 5px solid rgba(0, 136, 169, 1);
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    .namn{
+        width: 320px;
+        text-align: center;
+    }
+
+    .beskrivning{
+        margin-bottom: 20px;
+        margin-top: 10px;
+        width: 320px;
+        display: flex;
+        margin-left: auto;
+    }
+
+    p{
+        font-family: Open Sans;
+        line-height: 1.3;
+    }
+
+    .historik{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
 
 .footer{
     left: 0;
@@ -97,10 +180,11 @@ h1{
     padding-bottom: 10px;
     padding-top: 10px;
 
-    p{
+    .copyright{
         font-size: small;
         margin-left: 5px;
         text-align: center;
+        color: $fontColor;
     }
 
     .logo{
