@@ -14,7 +14,7 @@ body html {
 
 img {
   background-position: center center;
-  max-width: 1903px;
+  max-width: 99vw;
   max-height: 1280px;
 }
 
@@ -25,7 +25,7 @@ img {
   transform: translate(-50%, -50%);
   z-index: 1;
   text-align: center;
-  background-color: rgba(0, 136, 169, 0.9);
+  background-color: rgba(80, 200, 120, 0.9);
   border-radius: 5px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -40,7 +40,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  background-color: rgba(0, 136, 169, 0.9);
+  background-color: rgba(80, 200, 120, 0.9);
   border-radius: 5px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -55,12 +55,27 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  background-color: rgba(0, 136, 169, 0.9);
+  background-color: rgba(80, 200, 120, 0.9);
   border-radius: 5px;
   padding-bottom: 20px;
   padding-left: 10px;
   padding-right: 10px;
   font-weight: bold;
+}
+.truck-text p {
+  margin-bottom: 10px;
+}
+
+.produkter {
+  width: 200px;
+  margin: auto;
+}
+.produkter a {
+  color: #314a9b;
+  border-bottom: 2px solid;
+}
+.produkter a:hover {
+  color: #202124;
 }
 
 .service-text {
@@ -70,7 +85,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  background-color: rgba(0, 136, 169, 0.9);
+  background-color: rgba(80, 200, 120, 0.9);
   border-radius: 5px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -80,9 +95,7 @@ img {
 
 .img-boxes {
   max-width: 1903px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3px;
+  width: 100vw;
   filter: blur(0.5px);
   font-weight: bold;
 }
@@ -139,7 +152,7 @@ button {
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.4s ease 0s;
-  color: #fff;
+  color: #edf0f1;
   font-size: 20px;
 }
 
@@ -148,33 +161,28 @@ button:hover {
 }
 
 h1 {
-  color: #fff;
+  color: #edf0f1;
   text-align: center;
   margin-top: 20px;
   font-size: 3rem;
 }
 
 h2 {
-  color: #fff;
+  color: #edf0f1;
   margin-top: 10px;
   font-size: 2.5rem;
 }
 
 p {
-  color: #fff;
+  color: #edf0f1;
   margin-top: 20px;
   font-size: 1.3rem;
   font-family: merienda;
 }
 
-.container {
-  max-width: 1920px;
-  margin: 0 auto;
-}
-
 .box {
   flex: 1;
-  color: #fff;
+  color: #edf0f1;
 }
 .box h2 {
   text-align: center;
@@ -185,7 +193,7 @@ p {
   bottom: 0;
   width: 100%;
   background-color: #24252A;
-  color: #fff;
+  color: #edf0f1;
   padding-bottom: 10px;
   padding-top: 10px;
 }
@@ -194,6 +202,7 @@ p {
   margin-left: 5px;
   text-align: center;
   margin-top: 0px;
+  color: #fff;
 }
 .footer .logo {
   margin-top: 5px;

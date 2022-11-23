@@ -142,6 +142,10 @@ section .historik {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+section .roll {
+  text-align: center;
+  margin-top: 5px;
+}
 
 .footer {
   left: 0;
