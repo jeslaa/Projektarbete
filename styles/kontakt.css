@@ -68,10 +68,61 @@ button {
   font-size: 20px;
 }
 
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
 h1 {
   color: #fff;
   font-size: 3rem;
   text-align: center;
+  margin-bottom: 10px;
+}
+
+section {
+  max-width: 1500px;
+  margin: auto;
+}
+section .container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+section .container2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+section .submit {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+section textarea {
+  width: 500px;
+  height: 200px;
+  margin-bottom: 5px;
+}
+section p {
+  color: #fff;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 5px;
+}
+section .bild {
+  width: 700px;
+  height: 500px;
+  display: flex;
+  margin: auto;
+}
+section label {
+  color: #fff;
+}
+section .radiobtn {
+  margin: 10px;
+}
+section .telefonnummer {
+  margin-bottom: 20px;
 }
 
 .footer {
@@ -82,6 +133,7 @@ h1 {
   color: #fff;
   padding-bottom: 10px;
   padding-top: 10px;
+  margin-top: 5px;
 }
 .footer p {
   font-size: small;

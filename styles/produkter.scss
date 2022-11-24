@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 $fontColor : #fff;
+$pBread : 1.1rem;
+$font2 : 2.3rem; //h2 font size
+$boxes : rgb(80, 200, 120, 0.9);
 
 * {
     margin: 0px;
@@ -82,11 +86,83 @@ button {
 
 }
 
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
 h1{
     color: $fontColor;
     font-size: 3rem;
     text-align: center;
+    margin-bottom: 20px;
 }
+
+section{
+    max-width: 1500px;
+    margin: auto;
+
+    h2{
+        font-size: $font2 ;
+        color: $fontColor;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .bild{
+        width: 900px;
+        display: flex
+        
+        
+    }
+
+    .container{
+        width: 900px;
+        margin: auto;
+    }
+    
+    p{
+        color: $fontColor;
+        font-size: $pBread;
+        font-family: Open Sans;
+        margin-bottom: 10px;
+    }
+
+    .beställ{
+        margin: auto;
+        width: 200px;
+        background-color: $boxes;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+
+    }
+
+    .pris{
+        text-align: center;
+        font-weight: bold;
+        font-size: 20.8px;
+    }
+
+    .beställ:hover{
+        background-color: rgb(80, 200, 120, 0.65);
+    }
+
+    @mixin borderBottom {
+        border-bottom: 3px solid black;
+        margin-bottom: 5px;
+    }
+    
+    .kycklingmedris{
+        @include borderBottom()
+    }
+
+    .spaghetti{
+        @include borderBottom()
+    }
+}
+
+
+
 
 .footer{
     left: 0;

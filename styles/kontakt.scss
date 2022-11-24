@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 $fontColor : #fff;
-
+$pBread : 1.1rem;
 * {
     margin: 0px;
     padding: 0px;
@@ -82,10 +82,76 @@ button {
 
 }
 
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
 h1{
     color: $fontColor;
     font-size: 3rem;
     text-align: center;
+    margin-bottom: 10px;
+}
+
+section{
+    max-width: 1500px;
+    margin: auto;
+
+    @mixin containers {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .container{
+        @include containers()
+    }
+
+    .container2{
+        @include containers()
+
+        
+    }
+
+    .submit{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    textarea{
+        width: 500px;
+        height: 200px;
+        margin-bottom: 5px;
+    }
+
+    p{
+        color: $fontColor;
+        text-align: center;
+        font-size: $pBread;
+        margin-top: 5px;
+
+    }
+
+    .bild{
+        width: 700px;
+        height: 500px;
+        display: flex;
+        margin: auto;
+    }
+
+    label{
+        color: $fontColor;
+    }
+
+    .radiobtn{
+        margin: 10px;
+    }
+
+    .telefonnummer{
+        margin-bottom: 20px;
+    }
+
 }
 
 .footer{
@@ -96,6 +162,7 @@ h1{
     color: $fontColor;
     padding-bottom: 10px;
     padding-top: 10px;
+    margin-top: 5px;
 
     p{
         font-size: small;
