@@ -142,6 +142,7 @@ section{
 
     .portrait{
         width: 320px;
+        height: 320px;
         border: 5px solid rgb(80, 200, 120, 0.9);;
         border-radius: 5px;
         padding: 5px;
@@ -169,6 +170,8 @@ section{
     .historik{
         margin-top: 10px;
         margin-bottom: 10px;
+        width: 700px;
+        margin: auto;
     }
 
     .roll{
@@ -187,6 +190,7 @@ section{
     color: $fontColor;
     padding-bottom: 10px;
     padding-top: 10px;
+    margin-top: 20px;
 
     .copyright{
         font-size: small;
