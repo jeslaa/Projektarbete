@@ -30,6 +30,7 @@ header {
   flex-direction: row;
   padding: 30px 10%;
   background-color: #24252A !important;
+  margin-bottom: 10px;
 }
 header .logo {
   background-color: #24252A !important;
@@ -83,6 +84,8 @@ p {
 section {
   max-width: 1500px;
   margin: auto;
+  background-color: #292a2e;
+  padding: 20px 50px;
 }
 section h1 {
   color: #fff;
@@ -120,7 +123,6 @@ section .container {
 section .portrait {
   width: 320px;
   height: 320px;
-  border: 5px solid rgba(80, 200, 120, 0.9);
   border-radius: 5px;
   padding: 5px;
 }
@@ -143,7 +145,7 @@ section p {
 section .historik {
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 700px;
+  max-width: 700px;
   margin: auto;
 }
 section .roll {
@@ -159,7 +161,7 @@ section .roll {
   color: #fff;
   padding-bottom: 10px;
   padding-top: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .footer .copyright {
   font-size: small;

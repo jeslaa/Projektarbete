@@ -109,14 +109,14 @@ section{
     }
 
     .bild{
-        width: 900px;
+        max-width: 900px;
         display: flex
         
         
     }
 
     .container{
-        width: 900px;
+        width: 920px;
         margin: auto;
     }
     
@@ -133,7 +133,6 @@ section{
         background-color: $boxes;
         display: flex;
         justify-content: center;
-        margin-bottom: 30px;
 
     }
 
@@ -148,8 +147,11 @@ section{
     }
 
     @mixin borderBottom {
-        border-bottom: 3px solid black;
-        margin-bottom: 5px;
+        // border: 3px solid $boxes;
+        padding: 40px 40px;
+        background-color: #292a2e;
+        width: 905px;
+        margin-bottom: 10px;
     }
     
     .kycklingmedris{
@@ -157,6 +159,10 @@ section{
     }
 
     .spaghetti{
+        @include borderBottom()
+    }
+
+    .tacos{
         @include borderBottom()
     }
 }
@@ -172,6 +178,7 @@ section{
     color: $fontColor;
     padding-bottom: 10px;
     padding-top: 10px;
+    margin-top: 10px;
 
     p{
         font-size: small;

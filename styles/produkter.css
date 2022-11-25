@@ -92,11 +92,11 @@ section h2 {
   margin-bottom: 5px;
 }
 section .bild {
-  width: 900px;
+  max-width: 900px;
   display: flex;
 }
 section .container {
-  width: 900px;
+  width: 920px;
   margin: auto;
 }
 section p {
@@ -111,7 +111,6 @@ section .beställ {
   background-color: rgba(80, 200, 120, 0.9);
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
 }
 section .pris {
   text-align: center;
@@ -122,12 +121,22 @@ section .beställ:hover {
   background-color: rgba(80, 200, 120, 0.65);
 }
 section .kycklingmedris {
-  border-bottom: 3px solid black;
-  margin-bottom: 5px;
+  padding: 40px 40px;
+  background-color: #292a2e;
+  width: 905px;
+  margin-bottom: 10px;
 }
 section .spaghetti {
-  border-bottom: 3px solid black;
-  margin-bottom: 5px;
+  padding: 40px 40px;
+  background-color: #292a2e;
+  width: 905px;
+  margin-bottom: 10px;
+}
+section .tacos {
+  padding: 40px 40px;
+  background-color: #292a2e;
+  width: 905px;
+  margin-bottom: 10px;
 }
 
 .footer {
@@ -138,6 +147,7 @@ section .spaghetti {
   color: #fff;
   padding-bottom: 10px;
   padding-top: 10px;
+  margin-top: 10px;
 }
 .footer p {
   font-size: small;
