@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-$boxes : rgb(80, 200, 120, 0.9); //The boxes background color
+$boxes : rgba(41,42,46, 0.9); //The boxes background color
 $fontColor : #edf0f1; //Font color
 $font2 : 2.5rem; //h2 font size
 
@@ -80,13 +81,13 @@ img {
         margin: auto;
         
         a{
-            color: #314a9b;
+            color: #6186ff;
             border-bottom: 2px solid;
             transition: all 0.4s ease 0s;
         }
        
         a:hover{
-            color: #202124;
+            color: rgb(97,134,255, 0.7);
         }
     }
     
@@ -202,7 +203,7 @@ p {
     color: $fontColor;
     margin-top: 20px;
     font-size: 1.3rem;
-    font-family: merienda;
+    font-family: Open Sans;
 
 }
 

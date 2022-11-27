@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -68,10 +69,113 @@ button {
   font-size: 20px;
 }
 
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
 h1 {
   color: #fff;
   font-size: 3rem;
   text-align: center;
+}
+
+section {
+  max-width: 1500px;
+  margin: auto;
+}
+section .container {
+  max-width: 920px;
+  margin: auto;
+}
+section h2 {
+  color: #fff;
+  font-size: 2.3rem;
+}
+section .bild {
+  max-width: 900px;
+  display: flex;
+}
+section p {
+  color: #fff;
+  font-size: 1.1rem;
+  font-family: Open Sans;
+  margin-bottom: 10px;
+}
+section .produkt-namn {
+  text-align: center;
+}
+section .kyckling {
+  padding: 40px 40px;
+  background-color: #292a2e;
+  width: 905px;
+  margin-bottom: 10px;
+}
+section .kyckling .produkt-link {
+  text-align: center;
+}
+section .produkt-a {
+  font-size: 1.1rem;
+  font-style: Open Sans;
+  border-bottom: 1px solid white;
+  transition: all ease 0.4s;
+  color: #6186ff;
+}
+section .produkt-a:hover {
+  color: rgba(97, 134, 255, 0.7);
+}
+section .spaghetti {
+  padding: 40px 40px;
+  background-color: #292a2e;
+  width: 905px;
+  margin-bottom: 10px;
+}
+section .spaghetti .produkt-link {
+  text-align: center;
+}
+section .tacos {
+  padding: 40px 40px;
+  background-color: #292a2e;
+  width: 905px;
+  margin-bottom: 10px;
+}
+section .tacos .produkt-link {
+  text-align: center;
+}
+section .referenser {
+  text-align: center;
+}
+section .input-text {
+  margin: 5px;
+  min-width: 800px;
+  height: 20px;
+  padding: 5px;
+}
+section .input-user {
+  min-width: 100px;
+  margin: 5px;
+  height: 20px;
+  padding: 5px;
+  margin-top: 20px;
+}
+section .submit {
+  margin: 5px;
+}
+section .kommentarer {
+  margin-top: 10px;
+  background-color: white;
+  min-height: 200px;
+  border-radius: 5px;
+}
+section .kommentarer p {
+  color: black;
+}
+section .kommentarer .user {
+  color: rgb(0, 89, 255);
+  margin-left: 5px;
+  margin-top: 5px;
+}
+section .kommentarer .kommentar {
+  margin: 0px 5px;
 }
 
 .footer {

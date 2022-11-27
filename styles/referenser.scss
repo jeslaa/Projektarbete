@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 
 $fontColor : #fff;
+$pBread : 1.1rem;
+$font2 : 2.3rem; //h2 font size
 
 * {
     margin: 0px;
@@ -82,11 +86,140 @@ button {
 
 }
 
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
 h1{
     color: $fontColor;
     font-size: 3rem;
     text-align: center;
 }
+
+section{
+    max-width: 1500px;
+    margin: auto;
+
+    .container{
+        max-width: 920px;
+        margin: auto;
+    }
+
+    h2{
+        color: $fontColor;
+        font-size: $font2;
+    }
+
+    .bild{
+        max-width: 900px;
+        display: flex;
+    }
+
+    p{
+        color: $fontColor;
+        font-size: $pBread;
+        font-family: Open Sans;
+        margin-bottom: 10px;
+    }
+    .produkt-namn{
+        text-align: center;
+        
+    }
+
+    @mixin borderBottom {
+        // border: 3px solid $boxes;
+        padding: 40px 40px;
+        background-color: #292a2e;
+        width: 905px;
+        margin-bottom: 10px;
+    }
+    
+    .kyckling{
+        @include borderBottom();
+
+        .produkt-link{
+            text-align: center;
+        }
+
+    }
+
+    .produkt-a{
+        font-size: $pBread;
+        font-style: Open Sans;
+        border-bottom: 1px solid white ;
+        transition: all ease 0.4s;
+        color: #6186ff;
+    }
+
+    .produkt-a:hover{
+        color: rgb(97,134,255, 0.7);
+        
+    }
+
+    .spaghetti{
+        @include borderBottom();
+
+        .produkt-link{
+            text-align: center;
+        }
+    }
+
+    .tacos{
+        @include borderBottom();
+
+        .produkt-link{
+            text-align: center;
+        }
+
+    }
+
+    .referenser{
+        text-align: center;
+    }
+
+    .input-text{
+        margin: 5px;
+        min-width: 800px;
+        height: 20px;
+        padding: 5px;
+    }
+
+    .input-user{
+        min-width: 100px;
+        margin: 5px;
+        height: 20px;
+        padding: 5px;
+        margin-top: 20px;
+    }
+
+    .submit{
+        margin: 5px;
+    }
+    
+
+    .kommentarer{
+        margin-top: 10px;
+        background-color: white;
+        min-height: 200px;
+        border-radius: 5px;
+
+        p{
+            color: black;
+        }
+
+        .user{
+            color: rgb(0, 89, 255);
+            margin-left: 5px;
+            margin-top: 5px;
+        }
+
+        .kommentar{
+            margin: 0px 5px;
+            
+        }
+    }
+}
+
 
 .footer{
     left: 0;
