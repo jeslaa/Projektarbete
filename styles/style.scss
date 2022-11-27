@@ -263,3 +263,28 @@ p {
         }
     }
 }
+
+@media (max-width: 1440px) {
+    
+    .banner-text{
+        top: 40%;
+    }
+    
+    .mat-text{
+        top: 100%;
+    }
+
+    .truck-text{
+        top: 170%;
+    }
+}
+
+@media (max-width: 1024px){
+    .mat-text{
+        top: 95%;
+    }
+
+    .truck-text{
+        top: 160%;
+    }
+}
